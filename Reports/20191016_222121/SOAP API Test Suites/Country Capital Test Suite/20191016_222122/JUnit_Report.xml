@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Country Capital Test Suite" time="9" tests="1" failures="0" errors="0">
+    <testsuite name="Country Capital Test Suite" tests="1" failures="0" errors="0" time="9" timestamp="2019-10-16 22:21:27" hostname="BaPpY - 192.168.0.108" id="Test Suites/SOAP API Test Suites/Country Capital Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Studio\\Katalon Workspace\\SOAP API Web Service Example\\Reports\\20191016_222121\\SOAP API Test Suites\\Country Capital Test Suite\\20191016_222122"/>
+            <property name="logFiles" value="G:\\Katalon Studio\\Katalon Workspace\\SOAP API Web Service Example\\Reports\\20191016_222121\\SOAP API Test Suites\\Country Capital Test Suite\\20191016_222122\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="BaPpY - 192.168.0.108"/>
+            <property name="hostAddress" value="192.168.0.108"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/SOAP API Chaining Test Case" classname="Test Cases/SOAP API Chaining Test Case" status="PASSED">
+            <system-out>2019-10-16 22:21:28 - [TEST_CASE][PASSED] - Test Cases/SOAP API Chaining Test Case: Test Cases/SOAP API Chaining Test Case&#xD;
+&#xD;
+2019-10-16 22:21:28 - [TEST_STEP][PASSED] - countriesListByName = sendRequest(findTestObject("Country Info SOAP Service/Countries List SOAP Request")): Send request successfully&#xD;
+&#xD;
+2019-10-16 22:21:34 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Web Service Example\Reports\20191016_222121\SOAP API Test Suites\Country Capital Test Suite\20191016_222122\requests\main\0.har&#xD;
+&#xD;
+2019-10-16 22:21:34 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-16 22:21:34 - [TEST_STEP][PASSED] - println("Code Extracted : " + CountryISOCode): null&#xD;
+&#xD;
+2019-10-16 22:21:34 - [TEST_STEP][PASSED] - xmlResponseForCountryName = responseBodyContent: null&#xD;
+&#xD;
+2019-10-16 22:21:35 - [TEST_STEP][PASSED] - countries_list = XmlSlurper().parseText(xmlResponseForCountryName): null&#xD;
+&#xD;
+2019-10-16 22:21:35 - [TEST_STEP][PASSED] - country_code = sISOCode.text(): null&#xD;
+&#xD;
+2019-10-16 22:21:35 - [TEST_STEP][PASSED] - println("Code Extracted : " + country_code): null&#xD;
+&#xD;
+2019-10-16 22:21:35 - [TEST_STEP][PASSED] - CountryISOCode = country_code: null&#xD;
+&#xD;
+2019-10-16 22:21:35 - [TEST_STEP][PASSED] - println("Code Extracted : " + CountryISOCode): null&#xD;
+&#xD;
+2019-10-16 22:21:35 - [TEST_STEP][PASSED] - countriesCapital = sendRequest(findTestObject("Country Info SOAP Service/Get Capital City SOAP Request", ["countryISO":CountryISOCode])): Send request successfully&#xD;
+&#xD;
+2019-10-16 22:21:36 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Web Service Example\Reports\20191016_222121\SOAP API Test Suites\Country Capital Test Suite\20191016_222122\requests\main\1.har&#xD;
+&#xD;
+2019-10-16 22:21:36 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-16 22:21:36 - [TEST_STEP][PASSED] - xmlResponseForCapital = responseBodyContent: null&#xD;
+&#xD;
+2019-10-16 22:21:36 - [TEST_STEP][PASSED] - country_capital = XmlSlurper().parseText(xmlResponseForCapital): null&#xD;
+&#xD;
+2019-10-16 22:21:36 - [TEST_STEP][PASSED] - println("Capital Name : " + country_capital): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-16 22:21:27 - [TEST_SUITE][INCOMPLETE] - Country Capital Test Suite: null</system-out>
+        <system-err>2019-10-16 22:21:27 - [TEST_SUITE][INCOMPLETE] - Country Capital Test Suite: null</system-err>
+    </testsuite>
+</testsuites>

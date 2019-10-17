@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Country Capital Test Suite,,Get Name Of Country Capital,,2019-10-16 22:21:27,2019-10-16 22:21:36,9.449s,INCOMPLETE
+,,,,,,,
+Test Cases/SOAP API Chaining Test Case,,Chaining API Web Services,,2019-10-16 22:21:28,2019-10-16 22:21:36,8.801s,PASSED
+"countriesListByName = sendRequest(findTestObject(""Country Info SOAP Service/Countries List SOAP Request""))",,,,2019-10-16 22:21:28,2019-10-16 22:21:34,5.963s,PASSED
+"println(""Code Extracted : "" + CountryISOCode)",,,,2019-10-16 22:21:34,2019-10-16 22:21:34,0.164s,PASSED
+xmlResponseForCountryName = responseBodyContent,,,,2019-10-16 22:21:34,2019-10-16 22:21:35,0.285s,PASSED
+countries_list = XmlSlurper().parseText(xmlResponseForCountryName),,,,2019-10-16 22:21:35,2019-10-16 22:21:35,0.065s,PASSED
+country_code = sISOCode.text(),,,,2019-10-16 22:21:35,2019-10-16 22:21:35,0.021s,PASSED
+"println(""Code Extracted : "" + country_code)",,,,2019-10-16 22:21:35,2019-10-16 22:21:35,0.001s,PASSED
+CountryISOCode = country_code,,,,2019-10-16 22:21:35,2019-10-16 22:21:35,0.001s,PASSED
+"println(""Code Extracted : "" + CountryISOCode)",,,,2019-10-16 22:21:35,2019-10-16 22:21:35,0.002s,PASSED
+"countriesCapital = sendRequest(findTestObject(""Country Info SOAP Service/Get Capital City SOAP Request"", [""countryISO"":CountryISOCode]))",,,,2019-10-16 22:21:35,2019-10-16 22:21:36,1.622s,PASSED
+xmlResponseForCapital = responseBodyContent,,,,2019-10-16 22:21:36,2019-10-16 22:21:36,0.011s,PASSED
+country_capital = XmlSlurper().parseText(xmlResponseForCapital),,,,2019-10-16 22:21:36,2019-10-16 22:21:36,0.012s,PASSED
+"println(""Capital Name : "" + country_capital)",,,,2019-10-16 22:21:36,2019-10-16 22:21:36,0.002s,PASSED

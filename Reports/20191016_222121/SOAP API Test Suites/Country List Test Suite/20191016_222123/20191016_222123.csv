@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Country List Test Suite,,Country Info Using SOAP API,,2019-10-16 22:21:27,2019-10-16 22:21:42,15.007s,INCOMPLETE
+,,,,,,,
+Test Cases/Countries List Test Case,,Countries List By Names,,2019-10-16 22:21:28,2019-10-16 22:21:42,14.261s,PASSED
+"sendRequest(findTestObject(""Country Info SOAP Service/Countries List SOAP Request""))",,,,2019-10-16 22:21:28,2019-10-16 22:21:37,8.962s,PASSED
+"sendRequestAndVerify(findTestObject(""Country Info SOAP Service/Countries List SOAP Request""))",,,,2019-10-16 22:21:37,2019-10-16 22:21:42,4.790s,PASSED

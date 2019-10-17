@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Chaining API Web Services</description>
+   <name>SOAP API Chaining Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc7c762c-cb54-4b4e-a274-d37af06d6db3</testCaseGuid>
+</TestCaseEntity>

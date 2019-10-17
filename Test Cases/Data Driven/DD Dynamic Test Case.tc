@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SOAP API Dynamic Data Driven Test Example</description>
+   <name>DD Dynamic Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>108e25f5-94ae-4fda-9800-b6cbfcb71a52</testCaseGuid>
+   <variable>
+      <defaultValue>'BD'</defaultValue>
+      <description></description>
+      <id>39013c69-33c9-44ad-8b32-1c12871b565b</id>
+      <masked>false</masked>
+      <name>countryCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Dhaka'</defaultValue>
+      <description></description>
+      <id>47f1551e-d665-4853-9b41-94c7e6f45d78</id>
+      <masked>false</masked>
+      <name>capitalCity</name>
+   </variable>
+   <variable>
+      <defaultValue>'Taka'</defaultValue>
+      <description></description>
+      <id>431d3eae-d3c3-4fbc-8132-20de80cdba11</id>
+      <masked>false</masked>
+      <name>currencyName</name>
+   </variable>
+</TestCaseEntity>
