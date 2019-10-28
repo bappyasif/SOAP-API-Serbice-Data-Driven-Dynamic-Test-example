@@ -44,6 +44,7 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-WS.verifyElementText(response, 'CountryCurrencyResponse.CountryCurrencyResult.sISOCode', 'USD')</verificationScript>
+WS.verifyElementText(response, 'CountryCurrencyResponse.CountryCurrencyResult.sISOCode', 'USD')
+WS.verifyElementText(response, 'CountryCurrencyResponse.CountryCurrencyResult.sName', 'Dollars')</verificationScript>
    <wsdlAddress>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdlAddress>
 </WebServiceRequestEntity>

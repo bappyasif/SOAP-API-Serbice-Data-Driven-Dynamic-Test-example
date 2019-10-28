@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Another DD Test Suite" time="9" tests="3" failures="0" errors="0">
+    <testsuite name="Another DD Test Suite" tests="3" failures="0" errors="0" time="9" timestamp="2019-10-28 22:05:54" hostname="BaPpY - 192.168.0.108" id="Test Suites/Data Driven Test Suites/Another DD Test Suite">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="G:\\Katalon Studio\\Katalon Workspace\\SOAP API Web Service Example\\Reports\\20191028_220551\\Data Driven Test Suites\\Another DD Test Suite\\20191028_220551"/>
+            <property name="logFiles" value="G:\\Katalon Studio\\Katalon Workspace\\SOAP API Web Service Example\\Reports\\20191028_220551\\Data Driven Test Suites\\Another DD Test Suite\\20191028_220551\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="BaPpY - 192.168.0.108"/>
+            <property name="hostAddress" value="192.168.0.108"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/Data Driven/Country Info Test Case" classname="Test Cases/Data Driven/Country Info Test Case" status="PASSED">
+            <system-out>2019-10-28 22:05:54 - [TEST_CASE][PASSED] - Test Cases/Data Driven/Country Info Test Case: Test Cases/Data Driven/Country Info Test Case&#xD;
+&#xD;
+2019-10-28 22:05:55 - [TEST_STEP][PASSED] - println("Country Code : " + country_code): null&#xD;
+&#xD;
+2019-10-28 22:05:55 - [TEST_STEP][PASSED] - println("Capital City : " + capital_city): null&#xD;
+&#xD;
+2019-10-28 22:05:55 - [TEST_STEP][PASSED] - println("Currency Name : " + currency_name): null&#xD;
+&#xD;
+2019-10-28 22:05:55 - [TEST_STEP][PASSED] - capitalCity = sendRequest(findTestObject("Country Info SOAP Service/Get Capital City SOAP Request", ["countryISO":country_code])): Send request successfully&#xD;
+&#xD;
+2019-10-28 22:05:57 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Web Service Example\Reports\20191028_220551\Data Driven Test Suites\Another DD Test Suite\20191028_220551\requests\main\0.har&#xD;
+&#xD;
+2019-10-28 22:05:57 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-28 22:05:57 - [TEST_STEP][PASSED] - verifyElementText(capitalCity, "CapitalCityResponse.CapitalCityResult", capital_city): Verify element text successfully&#xD;
+&#xD;
+2019-10-28 22:05:58 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-10-28 22:05:58 - [TEST_STEP][PASSED] - currencyName = sendRequest(findTestObject("Country Info SOAP Service/Get Currency Name Request", ["countryISOCode":country_code])): Send request successfully&#xD;
+&#xD;
+2019-10-28 22:05:58 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Web Service Example\Reports\20191028_220551\Data Driven Test Suites\Another DD Test Suite\20191028_220551\requests\main\1.har&#xD;
+&#xD;
+2019-10-28 22:05:58 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-28 22:05:58 - [TEST_STEP][PASSED] - verifyElementText(currencyName, "CountryCurrencyResponse.CountryCurrencyResult.sName", currency_name): Verify element text successfully&#xD;
+&#xD;
+2019-10-28 22:05:59 - [MESSAGE][PASSED] - Verify element text successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Data Driven/Country Info Test Case" classname="Test Cases/Data Driven/Country Info Test Case" status="PASSED">
+            <system-out>2019-10-28 22:05:59 - [TEST_CASE][PASSED] - Test Cases/Data Driven/Country Info Test Case: Test Cases/Data Driven/Country Info Test Case&#xD;
+&#xD;
+2019-10-28 22:05:59 - [TEST_STEP][PASSED] - println("Country Code : " + country_code): null&#xD;
+&#xD;
+2019-10-28 22:05:59 - [TEST_STEP][PASSED] - println("Capital City : " + capital_city): null&#xD;
+&#xD;
+2019-10-28 22:05:59 - [TEST_STEP][PASSED] - println("Currency Name : " + currency_name): null&#xD;
+&#xD;
+2019-10-28 22:05:59 - [TEST_STEP][PASSED] - capitalCity = sendRequest(findTestObject("Country Info SOAP Service/Get Capital City SOAP Request", ["countryISO":country_code])): Send request successfully&#xD;
+&#xD;
+2019-10-28 22:06:00 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Web Service Example\Reports\20191028_220551\Data Driven Test Suites\Another DD Test Suite\20191028_220551\requests\main\2.har&#xD;
+&#xD;
+2019-10-28 22:06:00 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-28 22:06:00 - [TEST_STEP][PASSED] - verifyElementText(capitalCity, "CapitalCityResponse.CapitalCityResult", capital_city): Verify element text successfully&#xD;
+&#xD;
+2019-10-28 22:06:00 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-10-28 22:06:00 - [TEST_STEP][PASSED] - currencyName = sendRequest(findTestObject("Country Info SOAP Service/Get Currency Name Request", ["countryISOCode":country_code])): Send request successfully&#xD;
+&#xD;
+2019-10-28 22:06:01 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Web Service Example\Reports\20191028_220551\Data Driven Test Suites\Another DD Test Suite\20191028_220551\requests\main\3.har&#xD;
+&#xD;
+2019-10-28 22:06:01 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-28 22:06:01 - [TEST_STEP][PASSED] - verifyElementText(currencyName, "CountryCurrencyResponse.CountryCurrencyResult.sName", currency_name): Verify element text successfully&#xD;
+&#xD;
+2019-10-28 22:06:01 - [MESSAGE][PASSED] - Verify element text successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Data Driven/Country Info Test Case" classname="Test Cases/Data Driven/Country Info Test Case" status="PASSED">
+            <system-out>2019-10-28 22:06:01 - [TEST_CASE][PASSED] - Test Cases/Data Driven/Country Info Test Case: Test Cases/Data Driven/Country Info Test Case&#xD;
+&#xD;
+2019-10-28 22:06:01 - [TEST_STEP][PASSED] - println("Country Code : " + country_code): null&#xD;
+&#xD;
+2019-10-28 22:06:01 - [TEST_STEP][PASSED] - println("Capital City : " + capital_city): null&#xD;
+&#xD;
+2019-10-28 22:06:01 - [TEST_STEP][PASSED] - println("Currency Name : " + currency_name): null&#xD;
+&#xD;
+2019-10-28 22:06:01 - [TEST_STEP][PASSED] - capitalCity = sendRequest(findTestObject("Country Info SOAP Service/Get Capital City SOAP Request", ["countryISO":country_code])): Send request successfully&#xD;
+&#xD;
+2019-10-28 22:06:02 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Web Service Example\Reports\20191028_220551\Data Driven Test Suites\Another DD Test Suite\20191028_220551\requests\main\4.har&#xD;
+&#xD;
+2019-10-28 22:06:02 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-28 22:06:02 - [TEST_STEP][PASSED] - verifyElementText(capitalCity, "CapitalCityResponse.CapitalCityResult", capital_city): Verify element text successfully&#xD;
+&#xD;
+2019-10-28 22:06:02 - [MESSAGE][PASSED] - Verify element text successfully&#xD;
+&#xD;
+2019-10-28 22:06:02 - [TEST_STEP][PASSED] - currencyName = sendRequest(findTestObject("Country Info SOAP Service/Get Currency Name Request", ["countryISOCode":country_code])): Send request successfully&#xD;
+&#xD;
+2019-10-28 22:06:04 - [MESSAGE][INFO] - HAR: G:\Katalon Studio\Katalon Workspace\SOAP API Web Service Example\Reports\20191028_220551\Data Driven Test Suites\Another DD Test Suite\20191028_220551\requests\main\5.har&#xD;
+&#xD;
+2019-10-28 22:06:04 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-10-28 22:06:04 - [TEST_STEP][PASSED] - verifyElementText(currencyName, "CountryCurrencyResponse.CountryCurrencyResult.sName", currency_name): Verify element text successfully&#xD;
+&#xD;
+2019-10-28 22:06:04 - [MESSAGE][PASSED] - Verify element text successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-28 22:05:54 - [TEST_SUITE][INCOMPLETE] - Another DD Test Suite: null</system-out>
+        <system-err>2019-10-28 22:05:54 - [TEST_SUITE][INCOMPLETE] - Another DD Test Suite: null</system-err>
+    </testsuite>
+</testsuites>

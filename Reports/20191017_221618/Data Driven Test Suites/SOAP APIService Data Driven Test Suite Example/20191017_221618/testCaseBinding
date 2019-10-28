@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Data Driven/DD Dynamic Test Case - Iteration 1","testCaseId":"Test Cases/Data Driven/DD Dynamic Test Case","bindedValues":{"currencyName":"\u0027Dollars\u0027","countryCode":"\u0027US\u0027","capitalCity":"\u0027Washington\u0027"}}
+{"testCaseName":"Test Cases/Data Driven/DD Dynamic Test Case - Iteration 2","testCaseId":"Test Cases/Data Driven/DD Dynamic Test Case","bindedValues":{"currencyName":"\u0027Taka\u0027","countryCode":"\u0027BD\u0027","capitalCity":"\u0027Dhaka\u0027"}}
+{"testCaseName":"Test Cases/Data Driven/DD Dynamic Test Case - Iteration 3","testCaseId":"Test Cases/Data Driven/DD Dynamic Test Case","bindedValues":{"currencyName":"\u0027Dong\u0027","countryCode":"\u0027VN\u0027","capitalCity":"\u0027Hanoi\u0027"}}

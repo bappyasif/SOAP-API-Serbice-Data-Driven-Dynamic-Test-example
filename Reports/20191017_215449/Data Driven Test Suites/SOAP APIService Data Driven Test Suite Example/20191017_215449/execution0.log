@@ -1086,4 +1086,205 @@
   <message>End Test Suite : Test Suites/Data Driven Test Suites/SOAP APIService Data Driven Test Suite Example</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-18T21:06:39</date>
+  <millis>1571411199534</millis>
+  <sequence>184</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>260</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har868559949793979785\\requests\\ModalContext\\0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">a90780af-0581-4b8a-974e-f685bd63ab5d</property>
+</record>
+<record>
+  <date>2019-10-18T21:09:42</date>
+  <millis>1571411382249</millis>
+  <sequence>185</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>293</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har2323047091488691812\\requests\\ModalContext\\1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">e8a8a268-9d33-4780-8951-8cadb6a9c70e</property>
+</record>
+<record>
+  <date>2019-10-18T21:10:17</date>
+  <millis>1571411417048</millis>
+  <sequence>186</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>298</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har4532450043638738782\\requests\\ModalContext\\2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">fc13f998-45e2-4511-8792-363964f3e6d6</property>
+</record>
+<record>
+  <date>2019-10-18T21:12:28</date>
+  <millis>1571411548037</millis>
+  <sequence>187</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>341</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har6765599413376963668\\requests\\ModalContext\\3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">59b3c320-381f-4e53-8941-b5a77d2e3cee</property>
+</record>
+<record>
+  <date>2019-10-18T21:12:48</date>
+  <millis>1571411568007</millis>
+  <sequence>207</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>354</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har6246745170532927834\\requests\\ModalContext\\4.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4e5252a2-4bf5-4e39-9d7f-b1b5fd6f8394</property>
+</record>
+<record>
+  <date>2019-10-18T21:13:21</date>
+  <millis>1571411601444</millis>
+  <sequence>208</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>369</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har7664971476645353378\\requests\\ModalContext\\5.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">60859f09-1ace-40dc-a090-fc94eda5da53</property>
+</record>
+<record>
+  <date>2019-10-18T21:23:00</date>
+  <millis>1571412180381</millis>
+  <sequence>290</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>494</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har1944666904412982895\\requests\\ModalContext\\6.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">d0c05330-67d9-4fac-a4e8-ea78cddb9e97</property>
+</record>
+<record>
+  <date>2019-10-18T21:23:21</date>
+  <millis>1571412201631</millis>
+  <sequence>291</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>500</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har5872270574455734180\\requests\\ModalContext\\7.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">ac2a8387-261e-4a1d-b932-1581b9aa55d3</property>
+</record>
+<record>
+  <date>2019-10-18T21:26:28</date>
+  <millis>1571412388646</millis>
+  <sequence>292</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>534</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har4643984537661563028\\requests\\ModalContext\\8.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">60b24892-e61f-4d51-a801-0b218c514585</property>
+</record>
+<record>
+  <date>2019-10-18T22:02:07</date>
+  <millis>1571414527756</millis>
+  <sequence>1749</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1178</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har6488916784729531224\\requests\\ModalContext\\9.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">5f765aca-3f1c-4e81-bade-eee956cbdc4e</property>
+</record>
+<record>
+  <date>2019-10-18T22:02:21</date>
+  <millis>1571414541086</millis>
+  <sequence>1769</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1189</thread>
+  <message>HAR: C:\\Users\\BaPpY\\AppData\\Local\\Temp\\har7481000962254208573\\requests\\ModalContext\\10.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">f5617332-2c05-4892-bd3f-bd1a0581f89c</property>
+</record>
+<record>
+  <date>2019-10-18T22:15:07</date>
+  <millis>1571415307245</millis>
+  <sequence>1789</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/REST API Data Driven File/User Names Test Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T22:15:07</date>
+  <millis>1571415307247</millis>
+  <sequence>1790</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T22:15:07</date>
+  <millis>1571415307247</millis>
+  <sequence>1791</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;G:\\Katalon Studio\\Katalon Workspace\\REST API Web Services Example\\Data Driven Test Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T22:15:22</date>
+  <millis>1571415322990</millis>
+  <sequence>1792</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1291</thread>
+  <message>Finding test data with id &amp;apos;Data Files/REST API Data Driven File/User Names Test Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T22:15:22</date>
+  <millis>1571415322991</millis>
+  <sequence>1793</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1291</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-18T22:15:22</date>
+  <millis>1571415322991</millis>
+  <sequence>1794</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1291</thread>
+  <message>Reading excel file with source file &amp;apos;G:\\Katalon Studio\\Katalon Workspace\\REST API Web Services Example\\Data Driven Test Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
 </log>

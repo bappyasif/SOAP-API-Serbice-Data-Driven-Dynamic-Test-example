@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SOAP APIService Data Driven Test Suite Example,,Mentioned Above,,2019-10-17 22:22:52,2019-10-17 22:23:07,14.989s,INCOMPLETE
+,,,,,,,
+Test Cases/Data Driven/DD Dynamic Test Case,,SOAP API Dynamic Data Driven Test Example,,2019-10-17 22:22:53,2019-10-17 22:22:58,5.198s,PASSED
+"println(""Country ISO : "" + countryCode)",,,,2019-10-17 22:22:53,2019-10-17 22:22:53,0.005s,PASSED
+"println(""Country Capital : "" + capitalCity)",,,,2019-10-17 22:22:53,2019-10-17 22:22:53,0.001s,PASSED
+"println(""Currency Name : "" + currencyName)",,,,2019-10-17 22:22:53,2019-10-17 22:22:53,0.002s,PASSED
+"capitalResponse = sendRequest(findTestObject(""Country Info SOAP Service/Get Capital City SOAP Request"", [""countryISO"":countryCode]))",,,,2019-10-17 22:22:53,2019-10-17 22:22:56,2.652s,PASSED
+"verifyElementText(capitalResponse, ""CapitalCityResponse.CapitalCityResult"", capitalCity)",,,,2019-10-17 22:22:56,2019-10-17 22:22:56,0.140s,PASSED
+"currencyResponse = sendRequest(findTestObject(""Country Info SOAP Service/Get Currency Name Request"", [""countryISOCode"":countryCode]))",,,,2019-10-17 22:22:56,2019-10-17 22:22:58,1.928s,PASSED
+"verifyElementText(currencyResponse, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", currencyName)",,,,2019-10-17 22:22:58,2019-10-17 22:22:58,0.037s,PASSED
+,,,,,,,
+Test Cases/Data Driven/DD Dynamic Test Case,,SOAP API Dynamic Data Driven Test Example,,2019-10-17 22:22:58,2019-10-17 22:23:02,3.606s,PASSED
+"println(""Country ISO : "" + countryCode)",,,,2019-10-17 22:22:58,2019-10-17 22:22:58,0.002s,PASSED
+"println(""Country Capital : "" + capitalCity)",,,,2019-10-17 22:22:58,2019-10-17 22:22:58,0.001s,PASSED
+"println(""Currency Name : "" + currencyName)",,,,2019-10-17 22:22:58,2019-10-17 22:22:58,0.001s,PASSED
+"capitalResponse = sendRequest(findTestObject(""Country Info SOAP Service/Get Capital City SOAP Request"", [""countryISO"":countryCode]))",,,,2019-10-17 22:22:58,2019-10-17 22:23:00,1.998s,PASSED
+"verifyElementText(capitalResponse, ""CapitalCityResponse.CapitalCityResult"", capitalCity)",,,,2019-10-17 22:23:00,2019-10-17 22:23:00,0.056s,PASSED
+"currencyResponse = sendRequest(findTestObject(""Country Info SOAP Service/Get Currency Name Request"", [""countryISOCode"":countryCode]))",,,,2019-10-17 22:23:00,2019-10-17 22:23:02,1.497s,PASSED
+"verifyElementText(currencyResponse, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", currencyName)",,,,2019-10-17 22:23:02,2019-10-17 22:23:02,0.032s,PASSED
+,,,,,,,
+Test Cases/Data Driven/DD Dynamic Test Case,,SOAP API Dynamic Data Driven Test Example,,2019-10-17 22:23:02,2019-10-17 22:23:07,5.694s,PASSED
+"println(""Country ISO : "" + countryCode)",,,,2019-10-17 22:23:02,2019-10-17 22:23:02,0.002s,PASSED
+"println(""Country Capital : "" + capitalCity)",,,,2019-10-17 22:23:02,2019-10-17 22:23:02,0.001s,PASSED
+"println(""Currency Name : "" + currencyName)",,,,2019-10-17 22:23:02,2019-10-17 22:23:02,0.001s,PASSED
+"capitalResponse = sendRequest(findTestObject(""Country Info SOAP Service/Get Capital City SOAP Request"", [""countryISO"":countryCode]))",,,,2019-10-17 22:23:02,2019-10-17 22:23:04,2.551s,PASSED
+"verifyElementText(capitalResponse, ""CapitalCityResponse.CapitalCityResult"", capitalCity)",,,,2019-10-17 22:23:04,2019-10-17 22:23:04,0.038s,PASSED
+"currencyResponse = sendRequest(findTestObject(""Country Info SOAP Service/Get Currency Name Request"", [""countryISOCode"":countryCode]))",,,,2019-10-17 22:23:04,2019-10-17 22:23:07,3.045s,PASSED
+"verifyElementText(currencyResponse, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", currencyName)",,,,2019-10-17 22:23:07,2019-10-17 22:23:07,0.042s,PASSED
